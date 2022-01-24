@@ -1,0 +1,24 @@
+Dalam sebuah database, ada berbagai macam key yang dapat digunakan, yaitu:
+1. Super Key
+    Super key adalah attribute yang unik yang bisa mengidentifikasikan row.
+    Bisa terdiri dari satu attribute saja ataupun kumpulan dari beberapa attribute.
+2. Candidate Key
+    Minimal subset dari super key. Satu atau beberapa attribute yang mempunyai minimal subset.
+    Misalnya: Ada sebuah Tabel Siswa yang terdiri dari beberapa attribute, yaitu
+                1. siswa_id
+                2. reg_id
+                3. nama
+                4. email
+                5. kelas
+              Super key dari Tabel Siswa tersebut adalah:
+                1. siswa_id
+                2. reg_id
+                3. email
+                4. siswa_id + reg_id
+                5. siswa_id + email
+                6. reg_id + email
+                7. siswa_id + reg_id + email
+              Candidate key dari Tabel Siswa tersebut adalah:
+                1. siswa_id
+                2. reg_id
+                3. email
