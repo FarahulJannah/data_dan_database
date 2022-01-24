@@ -22,3 +22,10 @@ Dalam sebuah database, ada berbagai macam key yang dapat digunakan, yaitu:
                 1. siswa_id
                 2. reg_id
                 3. email
+3. Primary Key
+    Primary key adalah key yang dipilih menjadi kunci utama pada sebuah tabel berdasarkan list yang
+    termasuk di dalam Candidate Key.
+    Misalnya, primary key pada Tabel Siswa adalah reg_id
+4. Alternate Key
+    Alternate key adalah key yang tidak dipilih menjadi primary key
+    Alternate key pada Tabel Siswa adalah siswa_id dan email
