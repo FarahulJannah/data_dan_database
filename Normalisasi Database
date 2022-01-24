@@ -12,3 +12,18 @@ Data redundancy dapat menimbulkan beberapa masalah, yaitu:
 3. Updation anomaly
     Terjadi ketika kita ingin memberikan update ke suatu data tapi ternyata ada row yang tidak
     terupdate. Hal ini menyebabkan ketidakkonsistenan data.
+
+Normalisasi akan memisahkan satu tabel data menjadi beberapa tabel yang setiap attribute-nya
+mempunyai hubungan.
+
+Macam-macam normalisasi database:
+1. First Normal Form (1NF)
+2. Second Normal Form (2NF)
+3. Third Normal Form (3NF)
+4. Boyce-Codd Normal Form (BCNF)
+
+1. First Normal Form (1NF)
+    Kriteria: a. Setiap kolom harus mempunyai satu value;
+              b. Data yang disimpan dalam 1 kolom harus mempunyai tipe data yang sama;
+              c. Setiap kolom harus mempunyai nama yang unik;
+              d. Data yang tidak berurutan, tidak akan menjadi masalah.
