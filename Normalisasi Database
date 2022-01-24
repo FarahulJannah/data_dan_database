@@ -1,2 +1,14 @@
 Normalisasi adalah teknik pengorganisasian data menjadi multiple tabel yang saling berelasi.
 Tujuannya adalah untuk meminimalkan data redundancy.
+
+Data redundancy adalah pengulangan sejumlah data yang sama di beberapa tempat.
+Data redundancy dapat menimbulkan beberapa masalah, yaitu:
+1. Insertion anomaly
+    Terjadi  ketikan proses memasukkan data yang sama berulang-ulang ke setiap row yang baru.
+2. Deletion anomaly
+    Terjadi ketika ada 2 atau lebih data yang berelasi tanpa disimpan dalam 1 tabel yang sama.
+    Misalnya kita hanya ingin menghapus 1 attribut pada 1 row maka seluruh data di attribute yang
+    lain tersebut ikut terhapus juga.
+3. Updation anomaly
+    Terjadi ketika kita ingin memberikan update ke suatu data tapi ternyata ada row yang tidak
+    terupdate. Hal ini menyebabkan ketidakkonsistenan data.
