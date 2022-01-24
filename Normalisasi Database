@@ -27,3 +27,11 @@ Macam-macam normalisasi database:
               b. Data yang disimpan dalam 1 kolom harus mempunyai tipe data yang sama;
               c. Setiap kolom harus mempunyai nama yang unik;
               d. Data yang tidak berurutan, tidak akan menjadi masalah.
+
+2. Second Normal Form (2NF)
+    Kriteria: a. Harus sudah termasuk kriteria 1NF;
+              b. Tidak boleh ada partial dependency.
+    Partial Dependency:
+      Dalam satu tabel tidak boleh mempunyai beberapa primary key.
+      Sehingga tabel tersebut harus dipisahkan berdasarkan primary key-nya dengan attribute
+      yang bergantung dengan primary key tersebut.
