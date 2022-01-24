@@ -35,3 +35,10 @@ Macam-macam normalisasi database:
       Dalam satu tabel tidak boleh mempunyai beberapa primary key.
       Sehingga tabel tersebut harus dipisahkan berdasarkan primary key-nya dengan attribute
       yang bergantung dengan primary key tersebut.
+
+3. Third Normal Form (3NF)
+    Kriteria: a. Harus sudah termasuk kriteria 2NF;
+              b. Tidak boleh mempunyai transitive dependency.
+    Transitive dependency:
+      Terdapat 1 attribute yang tidak bergantung pada primary key manapun tapi dia bergantung
+      pada attribute yang bukan primary key.
