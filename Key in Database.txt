@@ -29,3 +29,11 @@ Dalam sebuah database, ada berbagai macam key yang dapat digunakan, yaitu:
 4. Alternate Key
     Alternate key adalah key yang tidak dipilih menjadi primary key
     Alternate key pada Tabel Siswa adalah siswa_id dan email
+5. Foreign Key
+    Foreign key adalah primary key dari suatu tabel yang berada di tabel lain.
+6. Composite key
+    Composite key adalah key yang mempunyai lebih dari satu attribute.
+    Misalnya, dalam Tabel Siswa adalah "siswa_id + reg_id"
+7. Compound Key
+    Compound key adalah key yang terdiri dari beberapa attribute dan salah satu attribute-nya harus
+    merupakan foreign key.
